@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.header { 
+    background-color:#4caf50 ;
+    height: 70px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 30px;
+    padding: 30px
+
+
+}
+.headerlink:first-child{
+    margin-right: auto;
+    
+}
+.headerlink a {
+    font-size: 30px;
+    color: aliceblue;
+    text-decoration: none;
+}
+/*thân bài*/
+/*phần trên*/
+button{
+    display: blobk;
+    height: 60px;
+    width: 140px;
+    background-color: #4caf50;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+.top{ 
+    background-color:#f4f4f4 ;
+    text-align: center;
+    padding: 60px 0;
+    font-size: 40px;
+    width: 100%;
+    line-height: 70px;
+}
+/*phần dưới*/
+
+.bot{
+    margin: 20px 0;
+    height: 70px ;
+    display: flex;
+    flex-flow:row nowrap;
+    justify-content: center;
+    align-items: center;
+    gap:30px
+}
+.feature{
+    width: 30%;
+    height: 60px;
+    padding: 10px 0;
+    font-size: 30px;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 6px ;
+    background-color: #f4f4f4;
+}
+/*Chân*/
+footer{ height: 50px ;
+    padding: 8px 0;
+    background-color: #111111;
+    text-align: center;
+    font-size: 30px;
+    color: aliceblue;
+}
+footer a{
+    text-decoration: none;
+    color: aliceblue;
+}
