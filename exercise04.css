@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    background-color:#4caf50 ;
+    line-height: 60px;
+    display: flex;
+    flex-flow:row wrap;
+    align-content: space-evenly;
+    justify-content: center;
+    gap:30px
+}
+
+.logo{
+    width: 100%;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 20px ;
+   
+}
+.logo a{
+     text-decoration: none;
+     color: aliceblue;
+}
+.listheader{
+    font-size: 30px;
+
+}
+/* thân bài*/
+.main{
+    height:600px;
+    display: flex;
+    flex-flow:column wrap;
+    gap:1px;
+    align-content:flex-start;
+    gap:0
+}
+img{ 
+    display: block;
+    width:200px;
+    height:200px;
+}
+
+.noidung:first-child{
+    box-sizing: border-box;
+    border: 2px solid; 
+    padding-left: 50px;
+    text-align: left;
+    background-color:#f0f0f0  ;
+    height: 100%;
+    width: 20%;
+    font-size: 40px;
+}
+.noidung{
+    width: 80%;
+    height: 50%;
+    box-sizing: border-box;
+    border: 1px solid;
+    margin: 0;
+    font-size: 20px;
+    
+}
+
+footer{
+    height: 60px ;
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+    background-color:#333333;
+    color: aliceblue;
+}
+footer a{
+    color: aliceblue;
+
+}
