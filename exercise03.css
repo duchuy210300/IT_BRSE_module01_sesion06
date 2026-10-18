@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header{
+    background-color:#282c34 ;
+    color: aliceblue;
+    height: 60px;
+    padding: 0 40px ;
+}
+.logo{
+    float: left;
+
+}
+.list-link{
+    float: right;
+}
+.header a{
+    line-height: 60px;
+    color: antiquewhite; 
+    text-decoration: none;
+}
+.list-link a {
+    margin-right: 30px ;
+    font-size: 20px;
+}
+/*thân bài*/
+.hinhanh{
+    width: 300px;
+    height: 300px;
+    box-sizing: border-box;
+    border: 4px solid green;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.hinhanh img{
+    width: 300px;
+    height: 300;px
+    object-fit: cover;
+}
+.gioithieu p {
+    font-size: 40px;
+    text-align: center;
+}
+.gioithieu {
+    display: flex;
+    flex-flow:row nowrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding:30px;
+    gap:30px;
+    background-color: #f0f0f0;
+}
+/*dự án*/
+.duancuatoi{
+    display: flex;
+    flex-flow:row wrap;
+    align-content:space-evenly ;
+    gap:30px;
+    justify-content:space-evenly ;
+}
+h2{
+    width: 100%;
+    font-size: 60px;
+    padding-left: 90px;
+}
+.duan {
+    width: 400px;
+    text-align: center;
+    font-size: 40px;;
+    border: 5px solid black;
+    box-sizing: border-box;
+    border-radius: 20px;
+    background-color: #282c34;
+    
+}
+.duan a {
+    color:#f0f0f0;
+    text-decoration: none;
+
+}
+.duan:hover {
+    background-color: red;
+}
+footer{
+    background-color:#f0f0f0 ;
+    font-size: 30px;
+    line-height: 90px;
+    text-align: center;
+    
+}
+footer a{
+    text-decoration: none;
+
+}
